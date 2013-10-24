@@ -1,0 +1,23 @@
+<?php
+/**
+ * Example file for configuring languages via the Configure
+ * class for the DEFAULT configuration of the Translation
+ * plugin.
+ *
+ * The below just shows the structure of the config array
+ * for inclusion via Configure::load(). The structure should
+ * be clear by that and you can of course configure your
+ * languages as you want via Configure::write().
+ */
+
+$config = array(
+	'App' => array(
+		'Languages' => array(
+			'de-de',
+			'en-us',
+			'en-gb',
+		),
+	),
+);
+
+?>
